@@ -39,5 +39,5 @@ Create *desktop.json* file in the root of project (where *main.py* exist). See s
 
 ## Notes
 
-- It`s no ability to add/remove icons from app in this version. Only derectly desktop.json manipulations.
-- Icons drag feature implemented, so you can just create icon in desktop.json with "pos": "0 0" and move it in any place with mouse inside app.
+- It`s no ability to add/remove icons from app in this version. Only derectly *desktop.json* manipulations.
+- Icons drag feature implemented, so you can just create icon in *desktop.json* with *"pos": "0 0"* and move it in any place with mouse inside app.
