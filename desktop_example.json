@@ -1,0 +1,20 @@
+[
+  {
+    "pos": "50 400",
+    "icon": "\uf2c6",
+    "label": "Telegram",
+    "command": "Telegram"
+  },
+  {
+    "pos": "50 520",
+    "icon": "\ued39",
+    "label": "Vivaldi",
+    "command": "vivaldi"
+  },
+  {
+    "pos": "50 50",
+    "icon": "\ue6ad",
+    "label": "Thunar",
+    "command": "thunar"
+  }
+]

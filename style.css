@@ -1,0 +1,77 @@
+/* Полный сброс стилей для всех виджетов */
+* {
+    background: rgba(0,0,0,0);
+    transition: all .3s ease;
+    outline: none;
+}
+
+.desktop-bg {
+    /*background: radial-gradient(rgba(131, 18, 168, 0.453), transparent);*/
+    background: radial-gradient(rgba(45, 18, 49, 0.5), transparent);
+    border-radius: 20px;
+}
+
+
+
+box{
+    padding: 0;
+    background-color: rgba(0,0,0,0);
+}
+
+
+.app-icon{
+    align-items: center;
+    justify-content: center;
+}
+.app-icon:hover{
+    animation: hover-shine 1s infinite;
+    border-radius: 20px;
+}
+.app-icon:hover .text {
+    transform: rotate(10deg);
+}
+.app-icon:hover .icon{
+    animation: rotation 2s infinite;
+}
+
+.icon {
+    font-family: "Symbols Nerd Font", "monospace";
+    font-size: 28px;
+    margin-bottom: 4px;
+}
+
+.text {
+    font-family: "Pixelon", "monospace";
+    font-size: 13px;
+    width: 100%;
+    text-align: center;
+}
+
+@keyframes hover-shine {
+    0%{
+        background: radial-gradient(rgba(112, 3, 149, 1), transparent, transparent);
+    }
+    50%{
+        background: radial-gradient(rgba(112, 3, 149, 1), transparent, transparent, transparent);
+    }
+    100%{
+        background: radial-gradient(rgba(112, 3, 149, 1), transparent, transparent);
+    }
+}
+@keyframes rotation {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(0deg);
+    }
+    75%{
+        transform: rotate(-45deg);
+    }
+    100%{
+        transform: rotate(0deg);
+    }
+}
