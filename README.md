@@ -5,17 +5,21 @@
 
 ## Installation
 
-Just download *.zip, and unpack whereever you want. Give execution rights:
-*chmod +x path/to/the/main.py*
+Just download *.zip, and unpack anywhere you want. Give execution rights:
+```bash
+chmod +x path/to/the/main.py
+```
 
 Then, just execute:
-*path/to/the/main.py*
+```bash
+path/to/the/main.py
+```
 
-In my configuration, I use it with this in my ~/.config/hypr/hyprland.conf: 
+In my configuration, I use it with this in my *~/.config/hypr/hyprland.conf*: 
 1. *exec-once = ~/OWN/PyDesktop/main.py*
 2. *bind = $mainMod, D, togglespecialworkspace, magic*
-3. 
-```
+3. Windowrule to launch it on special:magic workspace:
+```conf
 windowrule { 
     name = quickdesktop
     match:class = com.exx.quickdesktop
