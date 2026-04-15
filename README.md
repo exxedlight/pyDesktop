@@ -1,6 +1,7 @@
 # PyDesktop
 
 ~ Simple desktop solution for Hyprland, writen on python (GTK-4).
+
 ![Screenshot](/screenshots/1.png)
 
 ## Installation
@@ -32,10 +33,10 @@ With this, I have autorunned desktop-module on *special:magic* workspace on syst
 ## Config
 
 Create *desktop.json* file in the root of project (where *main.py* exist). See structure on desktop_example.json.
-1. pos: coordinates, where icon located
-2. icon: use Nerd font for icons, just paste it here
-3. command: command, which will be executed on click
-4. label: text under the icon
+1. *pos:* coordinates, where icon located
+2. *icon:* use Nerd font for icons, just paste it here
+3. *command:* command, which will be executed on click
+4. *label:* text under the icon
 
 ## Notes
 
