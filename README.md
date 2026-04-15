@@ -23,12 +23,21 @@ In my configuration, I use it with this in my *~/.config/hypr/hyprland.conf*:
 windowrule { 
     name = quickdesktop
     match:class = com.exx.quickdesktop
-    opacity = 1.0 override
-    no_blur = off
-    border_size = 0
-    decorate = off
     workspace = special:magic
 }
 ```
 
+With this, I have autorunned desktop-module on *special:magic* workspace on system startup, and can toggle it with *Super+D* bind.
+
 ## Config
+
+Create *desktop.json* file in the root of project (where *main.py* exist). See structure on desktop_example.json.
+1. pos: coordinates, where icon located
+2. icon: use Nerd font for icons, just paste it here
+3. command: command, which will be executed on click
+4. label: text under the icon
+
+## Notes
+
+- It`s no ability to add/remove icons from app in this version. Only derectly desktop.json manipulations.
+- Icons drag feature implemented, so you can just create icon in desktop.json with "pos": "0 0" and move it in any place with mouse inside app.
