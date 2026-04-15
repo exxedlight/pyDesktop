@@ -14,7 +14,9 @@ Then, just execute:
 In my configuration, I use it with this in my ~/.config/hypr/hyprland.conf: 
 1. *exec-once = ~/OWN/PyDesktop/main.py*
 2. *bind = $mainMod, D, togglespecialworkspace, magic*
-3. ```windowrule { 
+3. 
+```
+windowrule { 
     name = quickdesktop
     match:class = com.exx.quickdesktop
     opacity = 1.0 override
